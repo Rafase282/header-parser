@@ -1,6 +1,6 @@
 {
-  "name": "header-parser",
-  "version": "0.0.1",
+  "name": "header-parser-r282",
+  "version": "0.0.2",
   "description": "Lets you get the IP, language and OS for the browser making the request.",
   "main": "server.js",
   "scripts": {
