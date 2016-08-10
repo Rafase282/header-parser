@@ -8,7 +8,7 @@ module.exports = function(app) {
      req.socket.remoteAddress ||
      req.connection.socket.remoteAddress;
      var info = {
-         'ip-address': ip,
+         'ipaddress': ip,
          'language': req.headers["accept-language"].split(',')[0],
          'software': req.headers['user-agent'].split(') ')[0].split(' (')[1]
      };
