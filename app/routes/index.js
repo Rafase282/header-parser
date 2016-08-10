@@ -1,7 +1,7 @@
 'use strict';
 
 module.exports = function(app) {
-  app.route('/')
+  app.route('/whoami')
     .get(function(req, res) {
       var ip = req.headers['x-forwarded-for'] || 
      req.connection.remoteAddress || 
